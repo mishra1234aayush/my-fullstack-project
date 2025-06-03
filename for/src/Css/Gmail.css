@@ -1,0 +1,62 @@
+.gmail-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.gmail-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.gmail-box {
+  margin-bottom: 25px;
+}
+
+.gmail-input {
+  width: 100%;
+  padding: 15px 12px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.number-input {
+  width: 100%;
+  padding: 4px 11px;
+  font-size: 15px;
+  border: 2px solid #ccc;
+  margin-top: 10px;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.gmail-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.gmail-button {
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.gmail-button:hover {
+  background-color: #0056b3;
+}
