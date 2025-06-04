@@ -3,14 +3,13 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const authRoutes = require("../Routes/authRoutes");
 const app = express();
+require('dotenv').config({ path: __dirname +'/../../.env' });
 const port = process.env.PORT;
 
 
 
 app.use(cors());
 app.use(bodyParser.json());
-require('dotenv').config({ path: __dirname +'/../../.env' });
-
 
 app.use("/api/auth", authRoutes);
 
