@@ -22,7 +22,7 @@ const LoginForm = () => {
     e.preventDefault();
 
     try {
-      const res = await fetch("https://my-theme-project-backend.onrender.com/api/auth/login", {
+      const res = await fetch("https://theme-backend-8l9z.onrender.com/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
