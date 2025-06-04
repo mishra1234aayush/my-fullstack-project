@@ -31,7 +31,7 @@ const RegisterForm = () => {
     e.preventDefault();
   
     try {
-      const res = await axios.post("https://my-theme-project-backend.onrender.com/api/auth/register", formData);
+      const res = await axios.post("https://theme-backend-8l9z.onrender.com/api/auth/register", formData);
      
       if (res.ok) {
         setMessage("Registration successful! You can now login.");
