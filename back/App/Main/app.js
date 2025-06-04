@@ -14,6 +14,11 @@ require('dotenv').config({ path: __dirname +'/../../.env' });
 
 app.use("/api/auth", authRoutes);
 
+app.get("/", (req, res) => {
+  res.send("Theme Project Backend is Running ✅");
+});
+
+
 app.listen(port, () => {
   console.log(`🚀 Server running on http://localhost:${port}`);
 });
