@@ -18,7 +18,7 @@ const Gmail = () => {
         if(gmail)
         {
           try {
-      const res = await fetch("https://theme-project-backend.onrender.com/api/auth/gmailOtp", { method: "POST",headers: { "Content-Type": "application/json" },body: JSON.stringify({gmail}), });
+      const res = await fetch("https://my-theme-project-backend.onrender.com/api/auth/gmailOtp", { method: "POST",headers: { "Content-Type": "application/json" },body: JSON.stringify({gmail}), });
 
       const data = await res.json();
         console.log(data);
